@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerView">
+        <!--指示器的位置-->
+        <attr name="indicator_gravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+            <enum name="left" value="-1" />
+        </attr>
+
+        <!-- 点的间距 -->
+        <attr name="indicator_margin" format="dimension"/>
+
+        <!--广告描述的位置-->
+        <attr name="description_gravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="left" value="-1"/>
+        </attr>
+        <!--广告文本的大小-->
+        <attr name="description_text_size" format="dimension"/>
+        <!--广告文本的颜色-->
+        <attr name="description_text_color" format="color"/>
+        <!-- 底部的颜色 -->
+        <attr name="bottom_color" format="color"/>
+    </declare-styleable>
+</resources>
