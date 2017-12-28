@@ -11,9 +11,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.banner.view.bannerView.BannerAdapter;
-import com.example.banner.view.bannerView.BannerView;
-import com.example.banner.view.listener.ItemClickListenr;
+
+import org.banner.bannerView.BannerAdapter;
+import org.banner.bannerView.BannerView;
+import org.banner.listener.ItemClickListenr;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +28,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         mBanner = (BannerView) findViewById(R.id.banner);
         mPaths = new ArrayList<>();
         mPaths2 = new ArrayList<>();

@@ -1,9 +1,10 @@
-package com.example.banner.view.bannerpager;
+package org.banner.bannerpager;
 
 import android.view.View;
 
-import com.example.banner.view.os.BannerObsever;
-import com.example.banner.view.os.BannerSubject;
+
+import org.banner.os.BannerObsever;
+import org.banner.os.BannerSubject;
 
 import java.util.HashSet;
 import java.util.Set;

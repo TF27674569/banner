@@ -1,4 +1,4 @@
-package com.example.banner.view.bannerpager;
+package org.banner.bannerpager;
 
 import android.os.Handler;
 import android.os.Message;
@@ -6,7 +6,8 @@ import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.banner.view.listener.ItemClickListenr;
+
+import org.banner.listener.ItemClickListenr;
 
 import java.util.ArrayList;
 import java.util.List;

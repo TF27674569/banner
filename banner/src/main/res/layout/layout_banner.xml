@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.example.banner.view.bannerpager.BannerViewPager
+    <org.banner.bannerpager.BannerViewPager
         android:id="@+id/banner_pager_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

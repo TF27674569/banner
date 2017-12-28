@@ -1,4 +1,4 @@
-package com.example.banner.view.bannerpager;
+package org.banner.bannerpager;
 
 import android.app.Activity;
 import android.app.Application;
@@ -8,8 +8,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.animation.Interpolator;
 
-import com.example.banner.view.listener.ItemClickListenr;
-import com.example.banner.view.os.BannerObsever;
+
+import org.banner.listener.ItemClickListenr;
+import org.banner.os.BannerObsever;
 
 import java.lang.reflect.Field;
 

@@ -1,4 +1,4 @@
-package com.example.banner.view.bannerView;
+package org.banner.bannerView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -17,11 +17,11 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.banner.R;
-import com.example.banner.view.bannerpager.BannerViewPager;
-import com.example.banner.view.listener.ItemClickListenr;
-import com.example.banner.view.os.BannerObsever;
+import org.banner.R;
 
+import org.banner.bannerpager.BannerViewPager;
+import org.banner.listener.ItemClickListenr;
+import org.banner.os.BannerObsever;
 
 /**
  * description：轮播

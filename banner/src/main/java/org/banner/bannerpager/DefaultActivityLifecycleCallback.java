@@ -1,4 +1,4 @@
-package com.example.banner.view.bannerpager;
+package org.banner.bannerpager;
 
 import android.app.Activity;
 import android.app.Application;

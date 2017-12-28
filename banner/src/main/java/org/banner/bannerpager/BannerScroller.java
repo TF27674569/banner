@@ -1,4 +1,4 @@
-package com.example.banner.view.bannerpager;
+package org.banner.bannerpager;
 
 import android.content.Context;
 import android.view.animation.Interpolator;

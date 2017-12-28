@@ -1,4 +1,4 @@
-package com.example.banner.view.listener;
+package org.banner.listener;
 
 /**
  * description：

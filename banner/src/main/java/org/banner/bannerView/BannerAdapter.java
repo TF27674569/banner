@@ -1,8 +1,8 @@
-package com.example.banner.view.bannerView;
+package org.banner.bannerView;
 
 import android.view.View;
 
-import com.example.banner.view.bannerpager.BannerPagerAdapter;
+import org.banner.bannerpager.BannerPagerAdapter;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.example.banner.view.os;
+package org.banner.os;
 
 /**
  * description： 被观察者

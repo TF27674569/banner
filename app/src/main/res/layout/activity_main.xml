@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.banner.MainActivity">
 
-    <com.example.banner.view.bannerView.BannerView
+    <org.banner.bannerView.BannerView
         android:id="@+id/banner"
         app:description_gravity="right"
         app:indicator_gravity="center"
